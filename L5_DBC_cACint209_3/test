@@ -1,0 +1,29 @@
+proc celldef() {
+  topol()
+  subsets()
+  geom()
+  biophys()
+  geom_nseg()
+}
+
+
+proc topol() { local i
+  basic_shape()
+}
+proc basic_shape() {
+}
+
+objref all
+proc subsets() { local i
+  objref all
+  all = new SectionList()
+
+}
+proc geom() {
+}
+proc geom_nseg() {
+}
+proc biophys() {
+}
+
+celldef()
